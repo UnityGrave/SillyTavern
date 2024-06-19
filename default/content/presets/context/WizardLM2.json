@@ -1,0 +1,11 @@
+{
+    "story_string": "{{#if system}}{{system}}\n\n{{/if}}{{#if wiBefore}}World info:\n[{{wiBefore}}]\n\n{{/if}}{{#if description}}{{char}}'s description:\n[{{description}}]\n\n{{/if}}{{#if personality}}{{char}}'s personality:\n[{{personality}}]\n\n{{/if}}{{#if scenario}}{{char}}'s scenario:\n[{{scenario}}]\n\n{{/if}}{{#if persona}}{{user}}'s description:\n[{{persona}}]\n\n{{/if}}{{#if wiAfter}}World info:\n[{{wiAfter}}]\n{{/if}}",
+    "example_separator": "Example {{char}}'s dialogues:",
+    "chat_start": "[Please use this markdown format: \"direct speech\", *thoughts and actions*, [phone text messages], `system messages`.\n\nNever take initiative for {{user}}'s speech or actions in your responses!\n\nInclude emoji's, but only if {{char}} is text messaging.\n\nFocus on giving high quality, coherent and immersive roleplay.]",
+    "use_stop_strings": false,
+    "always_force_name2": true,
+    "trim_sentences": false,
+    "include_newline": false,
+    "single_line": false,
+    "name": "Custom"
+}
